@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <title>Product App</title>
+</body>
+
+<div id="app">
+    <h1>Products</h1>
+    <li v-for="item in items">
+        {{ item.name }} :: {{ item.id }} 
+        <img v-bind:src="item.image" />
+    </li>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/vue@next"></script>
+<script src="main.js"></script>
+</html>
