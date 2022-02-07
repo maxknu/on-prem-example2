@@ -1,4 +1,4 @@
-const getMyContacts = 'https://apim.eu.workato.com/mkn-eu/getmycontracts-v1/api-getmycontracts'
+const getMyContacts = 'https://apim.eu.workato.com/mkn-eu/getproducts-v1/getproducts-opa'
 
 Vue.createApp({
     data() {
