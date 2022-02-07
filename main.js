@@ -10,7 +10,7 @@ Vue.createApp({
         async fetchApi() {
             await axios.get(getMyContacts, {
               headers: {
-                "API-TOKEN": "0a5aee82b9c67fbe0ccaae8dcf7d6ac195d71aace29b2082693aed7c9a53d81d"
+                "API-TOKEN": "86c6fad2196d56057429f0e21d937c5b537f000bc77689469c25461587fbff17"
               }
             })
             .then((response) => {
