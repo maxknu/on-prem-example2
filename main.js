@@ -1,4 +1,4 @@
-const getMyContacts = 'https://apim.eu.workato.com/mkn-eu/getproducts-v1/getproducts-opa'
+const getMyContacts = 'https://apim.eu.workato.com/mkn-eu/github-pages-getproducts-v1/guthub-public-api-getproducts-onpremagent'
 
 Vue.createApp({
     data() {
